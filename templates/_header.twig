@@ -21,7 +21,10 @@
                     <p>
                         {% if cfp_open %}<a class="btn-opencfp btn-opencfp-medium btn-opencfp--outlined" href="{{ url('user_new') }}">Register Now</a>{% endif %}
                         <a class="btn-opencfp btn-opencfp-medium btn-opencfp--primary" href="{{ url('dashboard') }}">View Submissions</a>
-                        {% if cfp_open %}<a class="btn-opencfp btn-opencfp-xlarge btn-opencfp--primary" href="/talk/create">Submit Your Talk!</a>{% endif %}    
+                    </p>
+                    <p>
+                        {% if cfp_open %}<a class="btn-opencfp btn-opencfp-xlarge btn-opencfp--primary btn-opencfp--full" 
+                            href="/talk/create">Submit Your Talk!</a>{% endif %}    
                     </p>
                 </div>
             </div>
